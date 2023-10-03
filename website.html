@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Page Title</title>
+  </head>
+  <body>
+    <button
+      onclick="
+      console.log(`${showQuantity}`);
+    
+      "
+    >
+      Show Quantity
+    </button>
+    <button
+      onclick="
+      showQuantity += 1;
+    
+    "
+    >
+      Add to Cart
+    </button>
+
+    <button
+      onclick="
+      showQuantity += 2;
+    "
+    >
+      +2
+    </button>
+
+    <button
+      onclick="
+      showQuantity += 3;
+    "
+    >
+      +3
+    </button>
+
+    <button
+      onclick="
+      showQuantity= 0;
+    "
+    >
+      Reset Cart
+    </button>
+
+    <script>
+      let showQuantity = 0;
+    </script>
+  </body>
+</html>
